@@ -1,0 +1,176 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mehdi nabhani</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+
+            <button class="header-menu-burger" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+
+            <a href="#" class="header-menu-item-link heder-menu   color-hover "> مهدی نبهانی</a>
+
+            <ul class="header-menu" id="menu">
+
+                <li class="header-menu-item"><a href="#work-samples" class="header-menu-item-link ">نمونه کار</a></li>
+                <li class="header-menu-item"><a href="#about" class="header-menu-item-link "> درباره من</a></li>
+                <li class="header-menu-item"><a href="#skill" class="header-menu-item-link">مهارت ها</a></li>
+
+            </ul>
+            <section class="clear-fix"></section>
+        </nav>
+    </header>
+
+    <main class="">
+        <section class="about">
+            <img src="images/my-pic-2.png" alt="" class="about-img">
+
+            <section class="about-content margin-top">
+
+
+                <h1 class="size-20"> مهدی نبهانی هستم</h1>
+
+                <a href="#footer"> <button class="about-button">تماس با من</button></a>
+                <section class="clear-fix"></section>
+            </section>
+            <section class="clear-fix"></section>
+        </section>
+
+    </main>
+    <section class="about" id="about">
+        <img src="images/236-3.jpg" alt="" class="about-img">
+
+        <section class="about-content">
+
+
+            <h3>درباره من</h3>
+
+            <h2>من یک طراح گرافیکی هستم</h2>
+            <h5>Lorem i quam.orem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quamorem i quam</h5>
+            <section class="clear-fix"></section>
+        </section>
+        <section class="clear-fix"></section>
+    </section>
+    <section class="Work-samples" id="work-samples">
+        <h3 class="Work-samples-title"> نمونه کارهای من</h3>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="# " class="color-hover">دیدن همه</a>
+                </li>
+                <li>
+                    <a href="#" class="color-hover">عکس</a>
+                </li>
+                <li>
+                    <a href="#" class="color-hover">گل ها</a>
+                </li>
+                <li>
+                    <a href="#" class="color">طراحی</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="item2">
+            <img src="images/Capture22131234131.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/main.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/Screenshot_1.png" alt="" class="work-samples-img img-width">
+            <img src="images/main.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/Capture22131234131.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/main.JPG" alt="" class="work-samples-img img-width">
+
+            <img src="images/Capture22131234131.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/main.JPG" alt="" class="work-samples-img img-width">
+            <img src="images/Capture22131234131.JPG" alt="" class="work-samples-img img-width">
+        </section>
+    </section>
+
+    <section class="skill" id="skill">
+        <section class="content-skill">
+            <h3 class="color size">رزومه من</h3>
+            <h3 class="siza-skill">مهارت فردی</h3>
+
+            <p> FLEX BOX</p>
+            <section class="clear-fix"></section>
+            <progress max="100" value="40" class="mt-50px">
+                  
+            </progress><br>
+            <p> BOTSTRAP</p>
+            <section class="clear-fix"></section>
+            <progress max="100" value="10" class="mt-50px">
+                  
+            </progress><br>
+            <p> HTML CSS</p>
+            <section class="clear-fix"></section>
+            <progress max="100" value="70" class="mt-50px">
+                  
+            </progress><br>
+            <p> JAVA SCRIPT</p>
+            <section class="clear-fix"></section>
+            <progress max="100" value="30" class="mt-50px">
+                  
+            </progress><br>
+
+
+
+        </section>
+        <section class="cv">
+            <section class="cs-content">
+                <h3 class="size color-yellow"> Skill Me</h3>
+                <h1><a href="#">BOTSTRAP</a></h1>
+                <h1><a href="#">HTML CSS</a></h1>
+                <h1><a href="#">FLEX BOX</a></h1>
+                <h1><a href="#">JAVA SCRIPT</a></h1>
+
+            </section>
+        </section>
+        <section class="clear-fix"></section>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <section class="bg-map ">
+            <section class="footer-content ">
+
+
+                <section class="footer-content-caption color-black">
+                    <h2>تماس با من</h2>
+                    <h3>تلفن</h3>
+                    <p>09392563888</p>
+
+                    <h3>ایمیل</h3>
+
+                    <p><a href="#">mehdipalng@gmail.com</a></p>
+
+                    <h3>کانال تلگرامی</h3>
+                    <p class="color-green"><a href="#">@htmlcss</a></p>
+                </section>
+
+            </section>
+            <section class="clear-fix"></section>
+        </section>
+        <section class="clear-fix"></section>
+    </footer>
+
+
+
+
+
+
+    <script>
+        function showMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.className === "header-menu") {
+                menu.className += " show";
+            } else {
+                menu.className = "header-menu";
+            }
+        }
+    </script>
+</body>
+
+</html>
